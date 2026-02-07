@@ -6,10 +6,14 @@
   "version": "1.0.0",
   "description": "my first js based backend",
   "main": "index.js",
-  "devDependencies": {},
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev":"nodemon src/index.js"
   },
   "keywords": [
     "node",
